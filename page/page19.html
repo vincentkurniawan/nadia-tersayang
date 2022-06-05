@@ -1,0 +1,98 @@
+<h1>Lets Find <br><span style="color: 	#E1AD01;">The Legendary Food!</span></h1>
+<h2 style="margin-top: 40px;"><i class="material-icons">navigate_next</i><a id="gacha">GACHA</a><i class="material-icons">navigate_before</i></h2>
+<div class="whole" id="contents">
+    <div id="pic"></div>
+    <div class="col" id="isi">
+        <div class="row">
+            <h3 class="row1">Name:</h3>
+            <div id="name"></div>
+
+        </div>
+
+        <div class="row">
+            <h3 class="row1">Rarity:</h3>
+            <div id="rarity"></div>
+        </div>
+
+        <div class="row">
+            <h3 class="row1">Delicious Level:</h3>
+            <div class="outerBar row2" id="cuteness">
+                <div id="innerBar"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3 class="row1">Price:</h3>
+            <div id="weight"></div>
+        </div>
+
+        <div class="row">
+            <h3 class="row1">Details:</h3>
+            <div id="hobby"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<style>
+    #picture {
+        -webkit-animation: fadein 2s;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #pic {
+        width: 300px;
+        height: 300px;
+        margin-left: 180px;
+    }
+    
+    .whole {
+        margin-top: 70px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+    
+    .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+        height: 320px;
+        -webkit-animation: fadein 2s;
+    }
+    
+    .row {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .row1 {
+        text-align: left;
+        width: 250px;
+    }
+    
+    .row2 {
+        text-align: left;
+        width: 450px;
+        -webkit-animation: fadein 2s;
+    }
+    
+    .outerBar {
+        background-color: #ffb7c5;
+        width: 200px;
+        height: 20px;
+    }
+    
+    #innerBar {
+        background-color: #ce4a7c;
+        width: 50px;
+        height: 20px;
+        -webkit-animation: slide-in 2s;
+    }
+</style>
